@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner {
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #104e50;
+    background-image: url(Background.png);
+}
+
+
+
+.banner-text {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 120px;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+}
+
+.banner-text p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.banner-boder {
+
+    margin: 50px auto 0;
+
+
+}
+
+.banner-boder a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: .5px solid #edeef3;
+    position: relative;
+    margin: 20px;
+    padding: 10px 20px;
+
+    transition: color 0.5s;
+    z-index: 1;
+}
+
+.banner-boder a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4f7f5;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+
+.banner-boder a:hover span {
+    width: 100%;
+}
+
+.banner-boder a:hover {
+    color: black;
+
+}
+
+.navbar {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddeeee;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ungdung {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+}
+
+.ungdung-text {
+    
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.ungdung-media {
+    margin: 0;
+    padding: 0;
+}
+.ungdung-media-item {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ungdung-media-item a {
+    text-decoration: none;
+}
+.ungdung-media-item img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    transition: transform .6s;
+}
+
+.ungdung-media-item img:hover {
+    transform: scale(1.1)
+}
+
+.ungdung-media-item p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+}
+.ungdung-hay {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ungdung-hay-text {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.ungdung-hay-video {
+    margin: 0;
+    padding: 0;
+}
+.text-item {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.video-item {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.footer {
+    color: #186f72;
+    width: 1000px;
+    height: 350px;
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: rgb(236, 220, 230);
+    background-image: url(SPUD_8-removebg-22222.png);
+
+
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.footer-text h1 {
+    font-size: 15px;
+
+}
+
+.footer-text p {
+    font-size: 40px;
+    color: rgb(20, 20, 20);
+}
+
+.footer-info {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-info-left {
+    padding-left: 60px;
+
+}
+
+.footer-info-right {
+    padding-right: 60px;
+    text-align: right;
+}
+
+.icon-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0px;
+}
+
+.icon-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px;
+}
+
+.footer-info h1 {
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.footer-bottom i {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* For laptop: */
+    .banner {
+        col-12;
+    }
+
+    .navbar form {
+        display: none;
+    }
+
+    .navbar {
+        col-12;
+        padding: 0;
+
+    }
+    
+    .ungdung-media-item img {
+        width: 200px;
+        height: 120px;
+       
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For Tablet: */
+    .banner {
+        col-12;
+    }
+
+    .navbar form {
+        display: none;
+    }
+
+    .navbar {
+        col-12;
+        padding: 0;
+
+    }
+    
+    .ungdung-media-item img {
+        width: 150px;
+        height: 70px;
+       
+    }
+    .footer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* For Tablet: */
+   
+}

@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner {
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #104e50;
+    background-image: url(Background.png);
+}
+
+
+
+.banner-text {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 120px;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+}
+
+.banner-text p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.banner-boder {
+
+    margin: 50px auto 0;
+
+
+}
+
+.banner-boder a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: .5px solid #edeef3;
+    position: relative;
+    margin: 20px;
+    padding: 10px 20px;
+
+    transition: color 0.5s;
+    z-index: 1;
+}
+
+.banner-boder a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4f7f5;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+
+.banner-boder a:hover span {
+    width: 100%;
+}
+
+.banner-boder a:hover {
+    color: black;
+
+}
+
+.navbar {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddeeee;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.quangcao {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.quangcao-item {
+    padding: 20px;
+    
+}
+.quangcao-item-bg1 {
+    background-color: #699e13;
+    padding: 0;
+    animation-name: quangcao1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes quangcao1 {
+    0%   {background-color: #699e13;}
+    50%  {background-color: blue;}
+    100% {background-color: #80003c;}
+  }
+.quangcao-item-bg1 .row {
+    width: 280px;
+    height: 150px;
+    margin: 0;
+}
+.quangcao-item-bg1 .img {
+    padding: 0;
+    
+}
+
+.quangcao-item-bg2 {
+    background-color: #c53e29;
+    padding: 0;
+    animation-name: quangcao2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+@keyframes quangcao2 {
+    0%   {background-color: #c53e29;}
+    50%  {background-color: rgb(168, 207, 26);}
+    100% {background-color: #001e80;}
+  }
+
+.quangcao-item-bg2 .row {
+    width: 280px;
+    height: 150px;
+}
+.quangcao-item-bg2 .img {
+    padding: 0;
+}
+.quangcao-item-bg3 {
+    background-color: #1ba8a1;
+    padding: 0;
+    animation-name: quangcao3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite
+}
+@keyframes quangcao3 {
+    0%   {background-color: #1ba8a1;}
+    50%  {background-color: rgb(228, 123, 74);}
+    100% {background-color: #189708;}
+  }
+.quangcao-item-bg3 .row {
+    width: 280px;
+    height: 150px;
+}
+.quangcao-item-bg3 .img {
+    padding: 0;
+}
+
+.quangcao-item img {
+    width: 100%;
+    height: 100%;
+}
+.text {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text h5 {
+    font-weight: bold;
+    padding-left: 7px;
+}
+.sanpham {
+    margin: 50px auto;
+}
+.sanpham-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content-sp img {
+    transition: transform .5s;
+    cursor: pointer;
+    width: 230px;
+    height: 320px;
+}
+.content-sp img:hover {
+    transform: scale(1.1);
+}
+.content-sp .price {
+    border: solid 1px rgb(219, 214, 214);
+    text-align: center;
+    height: 220px;
+    margin: 15px auto;
+    
+    cursor: pointer;
+    transition: transform .5s;
+}
+.content-sp .price:hover {
+    transform: translateY(5px);
+    box-shadow: 0px 5px 5px 5px #8ecac1;
+}
+.content-sp .price h6 {
+    margin: 10px auto;
+    color: #82a0b4;
+    font-size: 15px;
+}
+.content-sp .price p {
+    margin: 20px auto;
+}
+.content-sp .price h3 {
+    margin: 30px auto;
+    color: rgb(235, 220, 8);
+}
+
+.footer {
+    color: #186f72;
+    width: 1000px;
+    height: 350px;
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: rgb(236, 220, 230);
+    background-image: url(SPUD_8-removebg-22222.png);
+
+
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.footer-text h1 {
+    font-size: 15px;
+
+}
+
+.footer-text p {
+    font-size: 40px;
+    color: rgb(20, 20, 20);
+}
+
+.footer-info {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-info-left {
+    padding-left: 60px;
+
+}
+
+.footer-info-right {
+    padding-right: 60px;
+    text-align: right;
+}
+
+.icon-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0px;
+}
+
+.icon-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px;
+}
+
+.footer-info h1 {
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    color: rgb(20, 20, 20);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.footer-bottom i {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* For laptop: */
+    .banner {
+        col-12;
+    }
+
+    .navbar form {
+        display: none;
+    }
+
+    .navbar {
+        col-12;
+        padding: 0;
+
+    }
+    .quangcao-item-bg1 .row {
+        width: 150px;
+        height: 150px;
+    }
+    .quangcao-item-bg1 .text {
+        col-12;
+    }
+    .quangcao-item-bg2 .row {
+        width: 150px;
+        height: 150px;
+    }
+    .quangcao-item-bg2 .text {
+        col-12;
+    }
+    .quangcao-item-bg3 .row {
+        width: 150px;
+        height: 150px;
+    }
+    .quangcao-item-bg3 .text {
+        col-12;
+    }
+    .img img {
+        display: none;
+    }
+    .content-sp img {
+        width: 180px;
+        height: 250px;
+    }
+    .content-sp .price h3 {
+        margin: 20px auto;
+        
+    }
+    .footer {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For Tablet: */
+    .banner {
+        col-12;
+    }
+
+    .navbar form {
+        display: none;
+    }
+
+    .navbar {
+        col-12;
+        padding: 0;
+
+    }
+    .quangcao-item {
+        display: none;
+    }
+    .content-sp img {
+        width: 120px;
+        height: 180px;
+    }
+    
+    .footer {
+        width: 68%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    /* For Tablet: */
+   
+}
